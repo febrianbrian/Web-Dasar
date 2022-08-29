@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clas Selector</title>
+    <style>
+        .red {
+            color :red;
+        }
+        
+        .skyblue-bg {
+            background-color :skyblue;
+        }
+
+        .fancy {
+            font-weight :bold;
+            text-shadow :4px 4px 3px;
+        }
+    </style>
+</head>
+<body>
+    <!--Class Selector menetapkan target elemen berdasarkan nilai dari atribut class yang diterapkan pada elemennya-->
+    <p class="red">Paragraf dengan teks berwarna merah<p>
+    <p class="skyblue-bg">Paragraf dengan background dengan warna biru langit</p>
+    <p class="fancy">Paragraf dengan gaya fancy</p>
+    <P>Paragraf yang menampolkan gaya standar tanpa menerapkan styleing.</p>
+    <!--Class bersifat shareable, sehingga dapat diterapkan pada banyak elemen dengan tipe elemen yang berbeda-beda.-->
+    <!--Misalkan sebuah class red dapat diterapkan pada elemen paragraf dan juga heading untuk menampilkan teks berwarna merah.-->
+    <h1 class="red">Heading dengan teks berwarna merah</h1>
+    <p class="red">Paragraf dengan teks berwarna merah</p>
+    <!--Tidak hanya itu, sebuah elemen juga mungkin memiliki banyak class-->
+</body>
+</html>
