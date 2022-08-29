@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaning Cell, Column Spans, Row Span</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>18:00</th>
+            <th>19:00</th>
+            <th>20:00</th>
+        </tr>
+        <tr>
+            <td colspan="2">Avenger Infinity Wars</td>
+            <td>It Chapter 2</td>
+        </tr>
+        <tr>
+            <td>One Pice : Stampede</td>
+            <td>Weathring With You</td>
+            <td>Gundala</td>
+        </tr>
+        <tr>
+            <td>Gundala</td>
+            <td colspan="2">Avenger Invinity Wars</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+    <!--Perhatikan elemen <th> yang diberi nilai atribut rowspan. Elemen tersebut berada pada baris pertama dan akan memanjang menjadi tiga baris ke bawahnya.-->
+            <th rowspan="3">18:00</th>
+    <!--Jadi pada baris tersebut kita membutuhkan dua buah elemen (<th> dan <td>) dan pada baris,
+        selanjutnya (baris dua dan tiga) kita hanya perlu satu buah elemen <td> saja di dalam elemen <tr> setelahnya.-->
+            <td>Avenger Infinity Wars</td>
+        </tr>
+        <tr>
+            <td>One Pice : Stamede</td>
+        </tr>
+        <tr>
+            <td>Gundala</td>
+        </tr>
+    </table>
+</body>
+</html>

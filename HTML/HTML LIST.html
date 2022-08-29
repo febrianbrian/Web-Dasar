@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML deangan List</titel>
+    </head>
+
+    <body>
+<!--Unorder list adalah list yang tidak mementingkan urutan, biasanya menggunakan bulet--> 
+    <title>Unordered List</title>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+<!--Di antara elemen <li>, kita dapan memasukan konten apapun termasuk elemen html lain.-->
+    <ul>
+        <li><h1>Sebuah heading sebagai item list</h1></li>
+        <li><h2>Sebuah Heading level 2 sebagai item list</h2></li>
+        <li><p>Sebuah paragraph sebagai item list</p><li>
+    </ul>
+<!--Kita juga bisa menyimpan kembali elemen <ul> untuk membuat sebuah nested list-->
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+         <li>List Item 3
+            <ul>
+                <li>List Item 3.1</li>
+                <li>List Item 3.2</li>
+                <li>List Item 3.3</li>
+            </ul>
+        </li>
+        <li>List Item 4</li>
+        </ul>
+<!--Ordered list adalah daftar yang ditampilkan secara berurut-->
+    <h1>Ordered List</h1>
+        <ol>
+            <li>Langkah Pertama</li>
+            <li>Langkah Kedua</li>
+            <li>Langkah Ketiga</li>
+            <li>Langkah selanjutnya</li>
+        </ol>
+<!--Contoh selain nomor urutan angka dapat berupa alfabet maupun angka romawi-->
+        <ol type="I">
+            <li>Langkah Pertama</li>
+            <li>Langkah Kedua</li>
+            <li>Langkah Ketiga</li>
+            <li>Langkah Selanjutnya</li>
+        </ol>
+
+        <ol type="A">
+            <li>Langkah Pertama</li>
+            <li>Langkah Kedua</li>
+            <li>Langkah Ketiga</li>
+            <li>Langkah Selanjutnya</li>
+        </ol>
+<!--Selain tipe angka kita juga bisa menentukan nilai awal pada sebuah ordered list yaitu dengan menggunakan atribut start-->
+        <ol start="7">
+            <li>Langkah Ketujuh</li>
+            <li>Langkah Kedelapan</li>
+            <li>Langkah Kesembilan</li>
+            <li>Langkah Selanjutnya</li>
+        </ol>
+<!--Selain membuat urutan maju, kita juga bisa membuat urutan mundur yaitu dengan menambahkan atribut reversed-->
+        <ol start="7" reversed>
+            <li>Langkah ketujuh</li>
+            <li>Langkah Keenam</li>
+            <li>Langkah Kelima</li>
+            <li>Langkah Selanjutnya</li>
+        </ol>
+    </body>
+
+</html>
